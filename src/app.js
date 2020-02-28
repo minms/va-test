@@ -1,7 +1,6 @@
 export default {
-  config: {
-    urlModel: 'hash',
-    storagePrefix: 'va-',
-    baseApi: '',
-  }
+  title: 'Vue Element Admin',
+  urlModel: 'hash',
+  storagePrefix: 'va-',
+  baseApi: ''
 }
