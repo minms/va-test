@@ -5,24 +5,26 @@ export default {
 
   register: (Vue, router, store, name) => {
     router.beforeEach(async (to, from, next) => {
-      if (to.name === 'Login') {
-        /** 取消模板 */
-        // store.dispatch('app/layout', false);
-        return next();
-      }
-
-      if (!getToken()) {
-        return next({name: 'Login', replace: true});
-      }
+      // if (to.name === 'Login') {
+      //   /** 取消模板 */
+      //   // store.dispatch('vaApp/layout', false);
+      //   return next();
+      // }
+      //
+      // if (!getToken()) {
+      //   return next({name: 'Login', replace: true});
+      // }
 
       next();
     });
   },
 
   routers: [{
-    path: 'login',
+    path: '/login',
     name: 'Login',
-    component: () => import("./pages/login")
+    hidden: true,
+    component: () => import("./pages/login"),
+    meta: {title: '登录'}
   }],
 
   store: {

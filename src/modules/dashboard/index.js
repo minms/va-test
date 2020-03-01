@@ -1,14 +1,14 @@
 export default {
-  weight: 1,
+  weight: 0,
 
   register: () => {
 
   },
 
   routers: [{
-    path: '/task',
-    name: 'Task',
+    path: '/',
+    name: 'Dashboard',
     component: () => import("./pages/index"),
-    meta: {title: '任务列表', icon: 'el-icon-eleme'}
+    meta: {title: '控制台', icon: 'el-icon-dish-1'}
   }],
 }
