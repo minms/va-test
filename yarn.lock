@@ -1870,9 +1870,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001020, caniuse-lite@^1.0.30001030:
-  version "1.0.30001030"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001030.tgz#78076c4c6d67d3e41d6eb9399853fb27fe6e44ee"
-  integrity sha512-QGK0W4Ft/Ac+zTjEiRJfwDNATvS3fodDczBXrH42784kcfqcDKpEPfN08N0HQjrAp8He/Jw8QiSS9QRn7XAbUw==
+  version "1.0.30001031"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001031.tgz#76f1bdd39e19567b855302f65102d9a8aaad5930"
+  integrity sha512-DpAP5a1NGRLgYfaNCaXIRyGARi+3tJA2quZXNNA1Du26VyVkqvy2tznNu5ANyN1Y5aX44QDotZSVSUSi2uMGjg==
 
 case-sensitive-paths-webpack-plugin@^2.3.0:
   version "2.3.0"
@@ -5398,6 +5398,11 @@ path-to-regexp@0.1.7:
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
 
+path-to-regexp@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-6.1.0.tgz#0b18f88b7a0ce0bfae6a25990c909ab86f512427"
+  integrity sha512-h9DqehX3zZZDCEm+xbfU0ZmwCGFCAAraPJWMXJ4+v32NjZJilVg3k1TcKsRgIb8IQ/izZSaydDc1OhJCZvs2Dw==
+
 path-type@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-3.0.0.tgz#cef31dc8e0a1a3bb0d105c0cd97cf3bf47f4e36f"
@@ -7308,12 +7313,13 @@ uuid@^3.0.1, uuid@^3.3.2:
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
 va-core@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/va-core/-/va-core-1.0.1.tgz#e9a3f8e76f37dc4f043e15a39e06f54a9580ea94"
-  integrity sha512-dcv0SSPbyxDB/CpJbu8id1WVEVGXNrfmU4bx8yluw8LOvmgF9yKvt1Et5RcItNgybOU9v8u/MP9FgxDRKFsAZA==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/va-core/-/va-core-1.0.3.tgz#c400946148952766c71d87856ec7699a7701b984"
+  integrity sha512-w030iy9t0fozebDdRq76VVB+XqrfsYMxjyJCEnbvVHLABF+Dp5gOvEJxaxJu1q60paCiaeF357uclLRjwiYTVg==
   dependencies:
     axios "^0.19.0"
     element-ui "^2.13.0"
+    path-to-regexp "^6.1.0"
     vue "^2.6.0"
     vue-router "^3.1.0"
     vuex "^3.1.0"
