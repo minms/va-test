@@ -7313,9 +7313,9 @@ uuid@^3.0.1, uuid@^3.3.2:
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
 va-core@^1.0.0:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/va-core/-/va-core-1.0.3.tgz#c400946148952766c71d87856ec7699a7701b984"
-  integrity sha512-w030iy9t0fozebDdRq76VVB+XqrfsYMxjyJCEnbvVHLABF+Dp5gOvEJxaxJu1q60paCiaeF357uclLRjwiYTVg==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/va-core/-/va-core-1.0.4.tgz#c40afbc8c8a577588b18d71df02329a3697fd560"
+  integrity sha512-OSTnvePEJQzR8pclY9tE/jYhjYzKsM6hv4MUkmIi/gqmJpcuSuGcjCqEfycRw/m8C7/ks+u+kdw5+uIQjU6K2Q==
   dependencies:
     axios "^0.19.0"
     element-ui "^2.13.0"

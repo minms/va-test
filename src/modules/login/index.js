@@ -62,6 +62,16 @@ export default {
         return Promise.reject(error)
       }
     )
+
+    /** 添加退出按钮到Layout */
+    store.dispatch('vaLayout/addTopMenus', {
+      label: '退出登录',
+      icon: '',
+      click: () => {
+        setToken(null);
+        router.push({name: 'Login'})
+      }
+    })
   },
 
   /**
