@@ -7,7 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "core-js": "^2.6.5",
+    "core-js": "^3.6.4",
     "va-core": "^1.0.0",
     "vue": "^2.6.11"
   },
@@ -16,6 +16,7 @@
     "@vue/cli-service": "^4.2.0",
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.6"
   }
 }
