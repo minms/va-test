@@ -5,7 +5,7 @@
                label-position="left">
         
         <div class="title-container">
-          <h1 class="title">用户登录</h1>
+          <h1 class="title">{{ config.title || '用户登录' }}</h1>
         </div>
         
         <el-form-item prop="username">

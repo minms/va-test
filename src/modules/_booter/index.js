@@ -1,8 +1,13 @@
-import {getToken} from "../login/utils/auth-helper";
-
 export default {
-  weight: -1,
+  weight: -100,
   register: (Vue) => {
+    /** 导入应用样式 */
+    import("../../assets/app.less");
+    /**
+     * 调整Element默认参数
+     * @type {{size: string, zIndex: number}}
+     */
+    Vue.prototype.$ELEMENT = {size: 'small', zIndex: 3000};
     /**
      * 拦截请求, 添加Header
      */

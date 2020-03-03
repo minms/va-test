@@ -5008,6 +5008,11 @@ npm-run-path@^4.0.0:
   dependencies:
     path-key "^3.0.0"
 
+nprogress@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
+  integrity sha1-y480xTIT2JVyP8urkH6UIq28r7E=
+
 nth-check@^1.0.2, nth-check@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/nth-check/-/nth-check-1.0.2.tgz#b2bd295c37e3dd58a3bf0700376663ba4d9cf05c"
@@ -7313,9 +7318,9 @@ uuid@^3.0.1, uuid@^3.3.2:
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
 va-core@^1.0.0:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/va-core/-/va-core-1.0.4.tgz#c40afbc8c8a577588b18d71df02329a3697fd560"
-  integrity sha512-OSTnvePEJQzR8pclY9tE/jYhjYzKsM6hv4MUkmIi/gqmJpcuSuGcjCqEfycRw/m8C7/ks+u+kdw5+uIQjU6K2Q==
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/va-core/-/va-core-1.0.6.tgz#1b727d32b3db9bc76d13cf237ac6021d14898c7f"
+  integrity sha512-LmqCD/eJGt1S8NTpnyPqO+5yAFbkk24nrVixhMUTQYZsUxaBCm1Q03/Q2uSVaHmE74NQhY+jRlN9ZsQfMPvozg==
   dependencies:
     axios "^0.19.0"
     element-ui "^2.13.0"
@@ -7532,9 +7537,9 @@ webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1, webpack-
     source-map "~0.6.1"
 
 webpack@^4.0.0, webpack@^4.41.6:
-  version "4.41.6"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.41.6.tgz#12f2f804bf6542ef166755050d4afbc8f66ba7e1"
-  integrity sha512-yxXfV0Zv9WMGRD+QexkZzmGIh54bsvEs+9aRWxnN8erLWEOehAKUTeNBoUbA6HPEZPlRo7KDi2ZcNveoZgK9MA==
+  version "4.42.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.42.0.tgz#b901635dd6179391d90740a63c93f76f39883eb8"
+  integrity sha512-EzJRHvwQyBiYrYqhyjW9AqM90dE4+s1/XtCfn7uWg6cS72zH+2VPFAlsnW0+W0cDi0XRjNKUMoJtpSi50+Ph6w==
   dependencies:
     "@webassemblyjs/ast" "1.8.5"
     "@webassemblyjs/helper-module-context" "1.8.5"
